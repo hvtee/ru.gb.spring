@@ -13,13 +13,14 @@
         <th>Reader ID</th>
         <th>Time</th>
     </tr>
-    <tr th:each="issue: ${issues}">
+    <tr th:each="issue: ${issueItems}">
         <td th:text="${issue.id}"></td>
-        <td ><a th:href="@{/issue/{id}(id=${issue.id})}" th:text="${issue.bookId}"></a></td>
+        <td><a th:href="@{/issue/{id}(id=${issue.id})}" th:text="${issue.bookId}"></a></td>
         <td th:text="${issue.readerId}"></td>
         <td th:text="${issue.timestamp}"></td>
 
     </tr>
 </table>
+<a href="/">Back</a>
 </body>
 </html>
