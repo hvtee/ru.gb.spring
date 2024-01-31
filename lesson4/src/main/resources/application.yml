@@ -7,3 +7,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+
+application:
+  max-allowed-books: 2
