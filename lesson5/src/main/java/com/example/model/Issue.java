@@ -4,25 +4,28 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Data
-// @Entity
+@Entity
 public class Issue {
-    public static long sequence = 1L;
-    private final long id;
-    private final long bookId;
-    private final long readerId;
-    private final LocalDateTime timestamp;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-    public Issue(long bookId, long readerId) {
-        this.id = sequence++;
+    private Long bookId;
+    private Long readerId;
+    private LocalDateTime timestamp;
+
+    public Issue(Long bookId, Long readerId) {
         this.bookId = bookId;
         this.readerId = readerId;
         this.timestamp = LocalDateTime.now();
+    }
+
+    public Issue() {
+        // Пустой конструктор требуется JPA
     }
 }
