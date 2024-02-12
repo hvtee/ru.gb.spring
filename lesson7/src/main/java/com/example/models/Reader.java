@@ -1,16 +1,20 @@
 package com.example.models;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
 @Entity
 @Table(name = "readers")
+@Schema(name = "Model for readers")
 public class Reader {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idreaders")
+    @Column(name = "reader_id")
     private Long id;
+
     @Column(name = "name", nullable = false)
     private String name;
 
