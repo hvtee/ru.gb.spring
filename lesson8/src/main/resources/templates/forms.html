@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin panel</title>
+</head>
+<body>
+<form action="/books" method="post" enctype="application/x-www-form-urlencoded">
+    <label for="book-name">Book name:</label>
+    <input type="text" id="book-name" name="name" required>
+    <button type="submit">Create book</button>
+</form>
+<br>
+<form action="/readers" method="post" enctype="application/x-www-form-urlencoded">
+    <label for="reader-name">Reader name:</label>
+    <input type="text" id="reader-name" name="name" required>
+    <button type="submit">Create reader</button>
+</form>
+<br>
+<a href="/admins">Back</a>
+</body>
+</html>

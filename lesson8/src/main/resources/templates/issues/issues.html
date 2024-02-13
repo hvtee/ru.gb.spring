@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Issue</title>
+</head>
+<body>
+<h1>Issue:</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Book ID</th>
+        <th>Reader ID</th>
+        <th>Time</th>
+    </tr>
+    <tr th:each="issueItem: ${issueItems}">
+        <td th:text="${issueItem.bookName.id}"></td>
+        <td><a th:href="@{/templates/issues/{id}(id=${issueItem.bookName.id})}" th:text="${issueItem.bookName.id}"></a></td>
+        <td th:text="${issueItem.readerName.id}"></td>
+        <td th:text="${issueItem.timestamp}"></td>
+    </tr>
+</table>
+<a href="/admins">Back</a>
+</body>
+</html>
