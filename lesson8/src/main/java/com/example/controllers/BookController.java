@@ -1,5 +1,6 @@
 package com.example.controllers;
 
+import com.example.aspect.Timer;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -43,6 +44,7 @@ public class BookController {
         return "books/books";
     }
 
+    @Timer
     @GetMapping("/{id}")
     @Operation(summary = "Get book by id", description = "Get book by id")
     public String getBookById(
@@ -58,7 +60,7 @@ public class BookController {
             return "/error?code=404";
         }
         model.addAttribute("book", bookService.getBookById(id));
-        log.info("page /book/{id} returned");
+        log.info("page /book/{} returned", id);
         return "books/book";
     }
 
