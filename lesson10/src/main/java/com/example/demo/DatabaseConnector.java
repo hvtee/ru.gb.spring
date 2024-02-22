@@ -34,22 +34,22 @@ public class DatabaseConnector {
     }
 
     // init-method
-    @SneakyThrows
-    @EventListener(ApplicationReadyEvent.class)
-    public void init() {
-        try {
-            Connection connection = dataSource.getConnection();
-
-
-            log.info("Database connection successful");
-
-            // Publish the custom event
-            eventPublisher.publishEvent(new DatabaseConnectionSetupEvent(this));
-
-            // Close the connection when done
-            connection.close();
-        } catch (SQLException e) {
-            log.error("Error connecting to the database", e);
-        }
-    }
+//    @SneakyThrows
+//    @EventListener(ApplicationReadyEvent.class)
+//    public void init() {
+//        try {
+//            Connection connection = dataSource.getConnection();
+//
+//
+//            log.info("Database connection successful");
+//
+//            // Publish the custom event
+//            eventPublisher.publishEvent(new DatabaseConnectionSetupEvent(this));
+//
+//            // Close the connection when done
+//            connection.close();
+//        } catch (SQLException e) {
+//            log.error("Error connecting to the database", e);
+//        }
+//    }
 }

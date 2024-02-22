@@ -36,45 +36,36 @@ public class BookControllerTest {
 
     @Test
     public void testGetAllBooks() {
-        // Arrange
         List<Book> mockBooks = Arrays.asList(new Book(), new Book());
         when(bookService.getBooks()).thenReturn(mockBooks);
 
-        // Act
         String viewName = bookController.getAllBooks(model);
 
-        // Assert
         assertEquals("books/books", viewName);
         verify(model).addAttribute("bookList", mockBooks);
     }
 
     @Test
     public void testGetBookById() {
-        // Arrange
         long bookId = 1L;
         Book mockBook = new Book();
         when(bookService.getBookById(bookId)).thenReturn(mockBook);
 
-        // Act
         String viewName = bookController.getBookById(model, bookId);
 
-        // Assert
         assertEquals("books/book", viewName);
         verify(model).addAttribute("book", mockBook);
     }
 
     @Test
     public void testPostBook() {
-        // Arrange
         String bookName = "Test Book";
         Book mockBook = new Book();
         mockBook.setName(bookName);
         when(bookService.createBook(bookName)).thenReturn(mockBook);
 
-        // Act
         ResponseEntity<Book> responseEntity = bookController.postBook(bookName);
 
-        // Assert
         assertEquals(HttpStatus.CREATED, responseEntity.getStatusCode());
         assertEquals(mockBook, responseEntity.getBody());
     }
@@ -82,13 +73,10 @@ public class BookControllerTest {
 
     @Test
     public void testDeleteBookById() {
-        // Arrange
         long bookId = 1L;
 
-        // Act
         ResponseEntity<Void> responseEntity = bookController.deleteBookById(bookId);
 
-        // Assert
         assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
         verify(bookService).deleteBookById(bookId);
     }
