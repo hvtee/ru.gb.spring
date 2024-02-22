@@ -15,11 +15,11 @@
     </tr>
     <tr th:each="issueItem: ${issueItems}">
         <td th:text="${issueItem.bookName.id}"></td>
-        <td><a th:href="@{/issue/{id}(id=${issueItem.bookName.id})}" th:text="${issueItem.bookName.id}"></a></td>
+        <td><a th:href="@{/templates/issues/{id}(id=${issueItem.bookName.id})}" th:text="${issueItem.bookName.id}"></a></td>
         <td th:text="${issueItem.readerName.id}"></td>
         <td th:text="${issueItem.timestamp}"></td>
     </tr>
 </table>
-<a href="/">Back</a>
+<a href="/admins">Back</a>
 </body>
 </html>

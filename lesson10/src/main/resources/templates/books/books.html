@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>All books</title>
 </head>
 <body>
 <h1>Books:</h1>
@@ -13,9 +13,9 @@
     </tr>
     <tr th:each="book: ${bookList}">
         <td th:text="${book.id}"></td>
-        <td><a th:href="@{/book/{id}(id=${book.id})}" th:text="${book.name}"></a></td>
+        <td><a th:href="@{/books/{id}(id=${book.id})}" th:text="${book.name}"></a></td>
     </tr>
 </table>
-<a href="/">Back</a>
+<a href="/admins">Back</a>
 </body>
 </html>
