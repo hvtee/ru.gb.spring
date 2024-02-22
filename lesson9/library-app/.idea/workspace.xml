@@ -5,46 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49ff67ed-10fe-4a27-b977-fd30c27d0476" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../lesson10/src/test/java/com/example/BookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson10/src/test/resources/application-test.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lesson5/src/main/resources/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/admins.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/books/book.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/forms.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/issues/issue.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/readers/reader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/org/example/BookApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/org/example/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/src/main/java/org/example/EurekaNamingServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/java/org/example/ReaderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/java/org/example/ReaderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lesson5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson5/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lesson5/src/main/java/com/example/api/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson5/src/main/java/com/example/api/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lesson5/src/main/java/com/example/api/ReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson5/src/main/java/com/example/api/ReaderController.java" afterDir="false" />
@@ -70,6 +38,40 @@
       <change beforePath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/issues.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/issues/issues.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/readers.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson6/src/main/resources/templates/readers/readers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/org/example/BookApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/org/example/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/src/main/java/org/example/EurekaNamingServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-naming-server/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/java/org/example/ReaderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/java/org/example/ReaderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reader-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +88,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2cafsLF1RSI7w3LmV4odZKboJlM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -113,7 +115,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/WinDISK D/DOWNLOAD/text",
+    "last_opened_file_path": "C:/Java/java_projects/ru.gb.spring/lesson9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -200,7 +202,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708354816607</updated>
-      <workItem from="1708354817731" duration="4504000" />
+      <workItem from="1708354817731" duration="6094000" />
+      <workItem from="1708514000035" duration="21000" />
+      <workItem from="1708520917640" duration="2432000" />
     </task>
     <servers />
   </component>
